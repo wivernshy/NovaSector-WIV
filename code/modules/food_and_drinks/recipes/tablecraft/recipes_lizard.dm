@@ -116,7 +116,7 @@
 		/datum/reagent/consumable/salt = 3
 	)
 	result = /obj/item/food/brain_pate
-	added_foodtypes = MEAT|GORE
+	added_foodtypes = MEAT|GORE|BLOODY
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/crispy_headcheese
@@ -384,7 +384,7 @@
 		/datum/reagent/consumable/vinegar = 2
 	)
 	result = /obj/item/food/black_eggs
-	added_foodtypes = GORE|BREAKFAST
+	added_foodtypes = GORE|BREAKFAST|BLOODY
 	removed_foodtypes = RAW
 	category = CAT_LIZARD
 

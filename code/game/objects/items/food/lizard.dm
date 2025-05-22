@@ -241,7 +241,7 @@
 		/datum/reagent/consumable/liquidgibs = 2,
 	)
 	tastes = list("brains" = 2)
-	foodtypes = MEAT | VEGETABLES | GORE
+	foodtypes = MEAT | VEGETABLES | GORE | BLOODY
 	w_class = WEIGHT_CLASS_SMALL
 	crafting_complexity = FOOD_COMPLEXITY_2
 
@@ -728,7 +728,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 6,
 	)
 	tastes = list("eggs" = 1, "greens" = 1, "blood" = 1)
-	foodtypes = MEAT | BREAKFAST | GORE
+	foodtypes = MEAT | BREAKFAST | GORE | BLOODY
 	w_class = WEIGHT_CLASS_SMALL
 	crafting_complexity = FOOD_COMPLEXITY_2
 

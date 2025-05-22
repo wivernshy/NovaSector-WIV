@@ -7,7 +7,7 @@
 		/datum/reagent/consumable/nutriment = 50,
 		/datum/reagent/consumable/nutriment/vitamin = 25
 	)
-	foodtypes = MEAT | GRAIN | VEGETABLES
+	foodtypes = MEAT | GRAIN | VEGETABLES | BLOODY
 	crafting_complexity = FOOD_COMPLEXITY_4
 
 /obj/item/food/snacks/store/bread/haggis/make_processable()
@@ -22,7 +22,7 @@
 		/datum/reagent/consumable/nutriment = 10,
 		/datum/reagent/consumable/nutriment/vitamin = 5
 	)
-	foodtypes = MEAT | GRAIN
+	foodtypes = MEAT | GRAIN | BLOODY
 	crafting_complexity = FOOD_COMPLEXITY_4
 
 
@@ -36,7 +36,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 10,
 		/datum/reagent/iron = 10
 	)
-	foodtypes = GRAIN | VEGETABLES | MEAT
+	foodtypes = GRAIN | VEGETABLES | MEAT | BLOODY
 	crafting_complexity = FOOD_COMPLEXITY_5
 
 /obj/item/food/raw_sausage/battered

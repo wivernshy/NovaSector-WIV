@@ -89,7 +89,7 @@
 		/datum/reagent/consumable/ketchup = 3,
 	)
 	tastes = list("meat" = 1)
-	foodtypes = GRAIN|DAIRY|JUNKFOOD|FRIED|BREAKFAST|MEAT|GORE
+	foodtypes = GRAIN|DAIRY|JUNKFOOD|FRIED|BREAKFAST|MEAT|GORE|BLOODY
 	is_decorated = TRUE
 	crafting_complexity = FOOD_COMPLEXITY_3
 

@@ -48,7 +48,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 5,
 	)
 	tastes = list("bun" = 2, "long pig" = 4)
-	foodtypes = MEAT | GRAIN
+	foodtypes = MEAT | GRAIN | BLOODY
 	venue_value = FOOD_PRICE_CHEAP
 	crafting_complexity = FOOD_COMPLEXITY_2
 
@@ -84,7 +84,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 6,
 	)
 	tastes = list("bun" = 4, "grass" = 2)
-	foodtypes = GRAIN | MEAT | GORE
+	foodtypes = GRAIN | MEAT | GORE | BLOODY
 	venue_value = FOOD_PRICE_NORMAL
 	crafting_complexity = FOOD_COMPLEXITY_2
 
@@ -205,7 +205,7 @@
 		/datum/reagent/consumable/nutriment/protein = 6,
 	)
 	tastes = list("bun" = 4, "brains" = 2)
-	foodtypes = GRAIN | MEAT | GORE
+	foodtypes = GRAIN | MEAT | GORE | BLOODY
 	venue_value = FOOD_PRICE_CHEAP
 	crafting_complexity = FOOD_COMPLEXITY_2
 
@@ -277,7 +277,7 @@
 		/datum/reagent/colorful_reagent/powder/red = 10,
 	)
 	tastes = list("bun" = 2, "red" = 2)
-	foodtypes = GRAIN | MEAT
+	foodtypes = GRAIN | MEAT | BLOODY
 	crafting_complexity = FOOD_COMPLEXITY_2
 
 /obj/item/food/burger/orange

@@ -102,7 +102,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 5,
 	)
 	tastes = list("cake" = 5, "sweetness" = 2, "brains" = 1)
-	foodtypes = GRAIN | DAIRY | MEAT | GORE | SUGAR
+	foodtypes = GRAIN | DAIRY | MEAT | GORE | SUGAR | BLOODY
 	slice_type = /obj/item/food/cakeslice/brain
 	crafting_complexity = FOOD_COMPLEXITY_3
 
@@ -117,7 +117,7 @@
 		/datum/reagent/consumable/nutriment/vitamin = 1,
 	)
 	tastes = list("cake" = 5, "sweetness" = 2, "brains" = 1)
-	foodtypes = GRAIN | DAIRY | MEAT | GORE | SUGAR
+	foodtypes = GRAIN | DAIRY | MEAT | GORE | SUGAR | BLOODY
 	crafting_complexity = FOOD_COMPLEXITY_3
 
 /obj/item/food/cake/cheese

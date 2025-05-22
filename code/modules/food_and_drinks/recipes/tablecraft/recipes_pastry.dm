@@ -41,7 +41,7 @@
 		/obj/item/food/meat/rawcutlet = 1,
 		/obj/item/food/pastrybase = 1
 	)
-	added_foodtypes = JUNKFOOD|BREAKFAST|FRIED|GORE
+	added_foodtypes = JUNKFOOD|BREAKFAST|FRIED|GORE|BLOODY
 	result = /obj/item/food/donut/meat
 
 /datum/crafting_recipe/food/donut/jelly
